@@ -1,5 +1,5 @@
 {% set name = "owa-env-desktop" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/owa_env_desktop-{{ version }}.tar.gz
-  sha256: 39c407e6922adf6117bddcb781105158c84a7f6ec71279b8969840c1a4927083
+  sha256: 3b30e72bf0e3daea3b38614bb3ff2870c006081eb7c48eb01bc6da3a09e01a17
 
 build:
   noarch: python
